@@ -139,8 +139,8 @@ class App extends Component{
                 </div>
         } else {
             displayFact =   <div className='no-fact'>
-                                <button className='fact-button' onClick={this.toggleFact}>Get a cat fact!</button>
                                 <div className='placeholder'>No Fact Yet!</div>
+                                <button className='fact-button' onClick={this.toggleFact}>Get a cat fact!</button>
                             </div>
         }
         return(

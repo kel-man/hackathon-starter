@@ -41,16 +41,18 @@ body {
     width: 70%;
     display: flex;
     flex-flow: column;
-    min-height: 3em;
-    padding: 5%;
+    min-height: 7em;
+    padding: 2%;
 }
 
 .fact-button {
     background: rgb(241, 61, 217);
-    height: 30px;
-    width: 100px;
+    height: 50px;
+    width: 125px;
     color: rgb(0, 0, 37);
     align-self: center;
+    justify-self: flex-end;
+    font-size: 12pt;
 }
 
 .fact-well {
@@ -65,6 +67,12 @@ body {
 
 .fact-content {
     align-self: center;
+}
+
+.fact-buttons {
+    align-self: center;
+    display: flex;
+    flex-flow: column;
 }
 
 .toggle-fact {
@@ -97,7 +105,7 @@ body {
     display: flex;
     flex-flow: column;
     min-height: 13em;
-    padding: 5%;
+    padding: 3%;
 }
 
 .kitty-button {
@@ -105,10 +113,11 @@ body {
     background: rgb(241, 61, 217);
     height: 50px;
     width: 200px;
+    font-size: 14pt;
 }
 
 .confirm-kitty {
-    width: 110px;
+    width: 200px;
     height: 75px;
     background: rgb(241, 61, 217);
     color: rgb(0, 0, 37);
@@ -118,16 +127,18 @@ body {
 
 .reject-kitty {
     width: 250px;
-    height: 20px;
+    height: 60px;
     align-self: center;
     background: rgb(14, 0, 0);
     color: white;
+    font-size: 14pt;
 }
 
 .placeholder {
     align-self: center;
     font-size: 20pt;
     color: rgb(0, 0, 37);
+    padding-bottom: 3em;
 }
 
 .override-div {
@@ -140,5 +151,4 @@ body {
 .kitty-switch {
     align-self: center;
     padding: 5em;
-    background-color: rgb(241, 61, 217);
 }
