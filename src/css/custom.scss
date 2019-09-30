@@ -41,7 +41,7 @@ body {
     width: 70%;
     display: flex;
     flex-flow: column;
-    min-height: 8em;
+    min-height: 3em;
     padding: 5%;
 }
 
@@ -67,17 +67,26 @@ body {
     align-self: center;
 }
 
-.no-fact {
+.toggle-fact {
+    background: rgb(117, 111, 197);
+    color: rgb(0, 0, 37);
     align-self: center;
-    display: flex;
-    flex-flow: column;
+    height: 20px;
+    width: 125px;
 }
 
 .change-fact {
     background: rgb(241, 61, 217);
-    height: 60px;
+    height: 45px;
     width: 150px;
     align-self: center;
+    color: rgb(0, 0, 37);
+}
+
+.no-fact {
+    align-self: center;
+    display: flex;
+    flex-flow: column;
 }
 
 .picture-div {
