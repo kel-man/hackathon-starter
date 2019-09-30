@@ -4,7 +4,6 @@
 
 body {
     background-color: #9de4e9;
-    border: 1px solid gray;
 }
 
 .container {
@@ -12,12 +11,10 @@ body {
     flex-direction: column;
     justify-content: space-around;
     background-color: #9de4e9;
-    border: 1px solid gray;
 }
 
 .title-div {
     align-self: flex-start;
-    border: 1px solid gray;
     align-self: center;
     width: 65%;
     display: flex;
@@ -37,7 +34,6 @@ body {
 
 .fact-div {
     align-self: center;
-    border: 1px solid gray;
     width: 70%;
     display: flex;
     flex-flow: column;
@@ -100,7 +96,6 @@ body {
 .picture-div {
     align-self: center;
     justify-self: flex-end;
-    border: 1px solid gray;
     min-width: 80%;
     display: flex;
     flex-flow: column;
