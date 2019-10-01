@@ -43,6 +43,7 @@ class App extends Component{
         var max = x.length;
         var random = Math.floor(Math.random() * (+max - +min)) + +min;
         var fact = x[random];
+        
         console.log(this.state.facts);
         console.log(this.state.fact);
         this.setState({
